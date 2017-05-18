@@ -29,7 +29,7 @@ export enum RangeHandle {Start, End, Both}
 
 @Component({
     selector: 'ng2-slider',
-    moduleId: module.id,
+    moduleId: module.id + '',
     templateUrl: './ng2-slider.component.html',
     // template: require('./ng2-slider.component.html'), // For webpack-compatible compiling
     directives: [SlideAbleDirective, Ng2StyledDirective],
